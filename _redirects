@@ -1,0 +1,11 @@
+# WordPress → static redirects
+/wp-admin/*           https://thecarouser.com    301
+/wp-login.php         https://thecarouser.com    301
+/wp-content/plugins/* /404.html                  404
+/feed/                /                          301
+/feed/atom/           /                          301
+/comments/feed/       /                          301
+/?p=:id               /                          301
+/?page_id=:id         /                          301
+/?cat=:id             /category/                 301
+/?author=:id          /author/                   301
